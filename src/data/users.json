@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "role": "admin",
+      "useYn": true,
+      "remark": "Seed admin",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "name": "Normal User",
+      "role": "user",
+      "useYn": true,
+      "remark": "Seed user",
+      "password": "password123"
+    }
+  ]
+}

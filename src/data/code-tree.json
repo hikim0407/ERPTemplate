@@ -1,0 +1,104 @@
+{
+  "codes": [
+    {
+      "code": "INCOME",
+      "name": "수입",
+      "parentCode": null,
+      "depth": 1,
+      "sortOrder": 1,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "SALARY",
+      "name": "급여",
+      "parentCode": "INCOME",
+      "depth": 2,
+      "sortOrder": 1,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "MONTHLY",
+      "name": "월급",
+      "parentCode": "SALARY",
+      "depth": 3,
+      "sortOrder": 1,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "BONUS",
+      "name": "상여금",
+      "parentCode": "SALARY",
+      "depth": 3,
+      "sortOrder": 2,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "FINANCE",
+      "name": "금융",
+      "parentCode": "INCOME",
+      "depth": 2,
+      "sortOrder": 2,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "PROFIT",
+      "name": "수익",
+      "parentCode": "FINANCE",
+      "depth": 3,
+      "sortOrder": 1,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "DIVIDEND",
+      "name": "배당금",
+      "parentCode": "FINANCE",
+      "depth": 3,
+      "sortOrder": 2,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "ETC",
+      "name": "기타",
+      "parentCode": "INCOME",
+      "depth": 2,
+      "sortOrder": 3,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "ETC_MISC",
+      "name": "기타",
+      "parentCode": "ETC",
+      "depth": 3,
+      "sortOrder": 1,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "code": "OUTCOME",
+      "name": "지출",
+      "parentCode": null,
+      "depth": 1,
+      "sortOrder": 2,
+      "useYn": true,
+      "remark": "",
+      "updatedAt": "2025-12-12T08:08:55.677Z"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import {
+﻿import {
   LayoutDashboard,
   Users,
   Settings,
@@ -19,9 +19,30 @@ export const menuData: MenuItem[] = [
     icon: LayoutDashboard,
   },
   {
+    title: "Accounting",
+    url: "#accounting",
+    icon: FileText,
+    items: [
+      {
+        title: "Transaction Entry",
+        url: "/accounting/transactions",
+        icon: FileText,
+      },
+      {
+        title: "Monthly Stats",
+        url: "/accounting/monthly",
+        icon: FileText,
+      },
+      {
+        title: "Yearly Summary",
+        url: "/accounting/yearly",
+        icon: FileText,
+      },
+    ],
+  },
+  {
     title: "System",
-    url: "#system", // 攴鸽９ ?る崝 ??暊
-    icon: Settings,
+    url: "#system", // ?닻맒竊???뗥킑 ????    icon: Settings,
     items: [
       {
         title: "User Management",

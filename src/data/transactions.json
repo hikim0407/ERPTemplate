@@ -1,3 +1,12 @@
 {
-  "transactions": []
+  "transactions": [
+    {
+      "id": "3e2afbd7-23e5-4f87-a3fb-5d8b5a84e119",
+      "date": "2026-02-03",
+      "amount": 100000,
+      "categoryCode": "MONTHLY",
+      "memo": "메모",
+      "createdAt": "2026-02-03T09:00:22.071Z"
+    }
+  ]
 }
